@@ -1,0 +1,60 @@
+EXPRESS JS
+It is used for designing and building web applications 
+quickly and easily. Web applications are web apps 
+that you can run on a web browser. 
+Since Express. js only requires javascript, 
+it becomes easier for programmers and developers 
+to build web applications and API without any effort.
+----------------------------------------------------
+ROUTER IN EXPRESS
+js server. The express. Router() function is used to
+ create a new router object. This function is used when you
+ want to create a new router object in your program 
+ to handle requests.
+ Routing refers to determining how an application
+ responds to a client request to a particular endpoint,
+ which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+  Each route can have one or more handler functions, 
+ which are executed when the route is matched.
+ ---------------------------------------------------
+ JWT
+ JWTs are mainly used for authentication. After a user signs in 
+ to an application, the application then assigns JWT 
+ to that user. Subsequent requests by the user will 
+ include the assigned JWT. 
+ This token tells the server what routes, services, 
+ and resources the user is allowed to access.
+ ---------------------------------------------------
+ ROUTER.POST()
+ router. post() refers to POST requests and router. get() 
+ refers to GET request. The difference between the two is
+  that a GET request, is requesting data from a specified
+  source and a POST request submits data to a specified 
+  resource to be processed.
+  --------------------------------------------------
+  RES.JSON
+  The res. json() function sends a JSON response. 
+  This method sends a response (with the correct content-type) 
+  that is the parameter converted to a JSON string using 
+  the JSON. stringify() method.
+  res. json() in react means: when you try fetch data
+  from a server, it will send you a RESPONSE which contains 
+  tons of irrelevant information.
+   To target only the BODY part of the response and 
+   to convert it from JSON to javascript, you use res. json()
+  --------------------------------------------------
+  AWAIT
+  await is usually used to unwrap promises by 
+  passing a Promise as the expression . 
+  Using await pauses the execution of its
+  surrounding async function until the promise 
+  is settled (that is, fulfilled or rejected).
+  When execution resumes, the value of the await 
+  expression becomes that of the fulfilled promise.
+   -------------------------------------------------
+   GEN-SALT
+   genSalt() method. This method accepts an 
+   integer value which is the cost factor 
+   that determines the time taken to hash a
+   password. 
+   -------------------------------------------------
